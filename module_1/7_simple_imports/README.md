@@ -53,6 +53,13 @@ img {
 <img src="images/hover.jpg" alt="Hover to see function explanation" align="right" width="50%" style="padding-left: 10px;" >
 - *Pro tip:*Hover over function name and some tips will appear.
 
+# Teaching Tips
+- As a general notion, put emphasis on documentation and encourage you students to include comments in their codes.
+- Sometimes students may forget the import statements since they are defined at top of the file. You may deliberately forget importing a library and explaing the error, ie:
+    ```bash
+    NameError: name 'math' is not defined
+    ```
+- If the student is advanced you may show how to include their own functions from their local files as well.
 
 ## Challenges
 ### Easy

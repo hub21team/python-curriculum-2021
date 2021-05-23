@@ -19,7 +19,7 @@ img {
 
 ### Functions
 
-- _Deliberation:_ Why do we need function? - As we grow and learn more things as a programmer, our programs may get complicated and sophisticated. How can we manage this? An example question can be, how would you code my workout routine: Lunges, Pushups, Squats, Lunges, Plank - **Note:** If the student followed _Python Module 0 - Karel_ then the tutor may remind the student the concept of _decomposition_ and spend less time here.
+- _Deliberation:_ Why do we need function? - As we grow and learn more things as a programmer, our programs may get complicated and sophisticated. How can we manage this? An example question can be, how would you code my workout routine: Lunges, Pushups, Squats, Lunges, Plank - 
   <!-- ![Toaster](images/toaster.png) -->
   <img src="images/toaster.png" alt="Toaster" width="45%" align="right" style="padding-left: 10px;">
 - Functions are like special toasters:
@@ -28,8 +28,6 @@ img {
       - What items are allowed in the toaster. For a regulr toaster, bagels, simit, bread, etc. are okay but phone, remote control, fork will break the toaster.
       - You don't need to know the wiring, or heating mechanism inside the toaster as long as dangers and rules are clearly defined in the manual.
   - Once defined you can reuse them for the same funtionality.
-
-**Note:** Based on the students interests, the analogy may be changed to different tools or concepts. Some examples include but are not limited to hairdresser actions, meat grinder, mathematical functions (although they lack the abstraction to some level), cooking, daily tasks, habits, Siri/virtual assistant actions etc.
 
 - Functions allow us to encapsulate complex tasks. Once we define a function, we can reuse them in our code.
 - We can even benefit from other people's codes -more on this next week: libraries-
@@ -76,7 +74,7 @@ img {
   def say_what_now(): 
       for i in range(5): 
           print("What?")     
-      say_what_now() 
+  say_what_now() 
   ```
 
     ```python
@@ -136,6 +134,15 @@ print(average(2, 5)) # this will print None
 - Don't try to achieve everything in a giant function. Decompose your problem and define functions for subtasks.
 - Functions should be easy to understand and reusable.
 - Use comments to explain the functionality and how you achieve it.
+
+# Teaching Tips
+- If the student followed _Python Module 0 - Karel_ then the tutor may remind the student the concept of _decomposition_ and spend less time in the beginning.
+- Based on the students interests, the **toaster analogy** may be changed to different tools or concepts. Some examples include but are not limited to hairdresser actions, meat grinder, mathematical functions (although they lack the abstraction to some level), cooking, daily tasks, habits, Siri/virtual assistant actions etc.
+- Students usually struggle establishing the **syntax** of using functions, they may do mistakes. Try to *explain the error* (Indentation, Type, Syntax, etc.) to the student so that they can internalize the concept rather than memorize rules.
+- One of the most confused concept in functions is the **scope**, make sure you spend enough time explaining it. You may refer to the variable definition and conditional blocks to build on the previous material.
+  - One suggestion is to try to use different names for parameters and variables that you pass to the function and note that.
+  - You may use deliberate errors to draw student's attention to common mistakes, like trying to accesss a variable defined in the function.
+  - Students may struggle with this for several weeks, you may reiterate the idea while writing code to make sure the student understands the concepts.
 
 ## Challenges
 

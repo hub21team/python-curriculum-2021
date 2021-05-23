@@ -6,10 +6,5 @@ Lessons:
 3.
 4.
 5.
-6.
-7.
-8.
-9.
-10.
-11. Simple Functions
-12. Simple Imports
+6. Simple Functions
+7. Simple Imports

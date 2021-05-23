@@ -1,13 +1,20 @@
 from math import factorial
 import math
 import random
-""" Easy """
 
-""" Square root """
-# x = float(input("Enter a number to take square root of: "))
-# print(math.sqrt(x))
+###------------------------------------------------- EASY -------------------------------------------------###
 
-""" Calculate the perimeter of a circle """
+
+""" Calculate the Square Root """
+x = float(input("Enter a number to take square root of: "))
+print(math.sqrt(x))
+
+""" Calculate the perimeter of a circle
+Jack will put tape around a hoop to play with his cat. Help Jack find how much tape he needs. 
+We know from math that the perimeter of a circle is given by the following formula: $2\pi r$ where $r$ represents 
+the radius of the circle and $\pi$ is a constant ($3.14159...$). 
+Take $r$ as input from the user andcalculate the result using `math.pi`.
+"""
 
 
 def perimeter(r):
@@ -19,8 +26,12 @@ def perimeter(r):
 # radius = float(input("What is the radius of the wheel? "))
 # print(perimeter(radius))
 
-""" Medium """
-""" Combination & Permutation Formulas """
+###------------------------------------------------- MEDIUM -------------------------------------------------###
+
+""" 
+Combination & Permutation Formulas 
+Calculate $C(n, k)=\frac{n!}{k!(n-k)!}$ and $P(n, k)=\frac{n!}{(n-k)!}$ using `math.factorial`.  
+"""
 
 
 def my_factorial(num):
@@ -48,7 +59,14 @@ def permutation(n, k):
 
 # print(combination(3, 2))
 
-""" Hard """
+###------------------------------------------------- HARD -------------------------------------------------###
+
+""" Guess the number game
+ Generate a random number between $1, 20$ using `random` library. You may use [`random.randint(a, b)`](https://docs.python.org/3/library/random.html#random.randint)
+- Ask the user their guess.
+- If user's guess is wrong give feedback to the user.
+- Repeat until user enters the correct number.
+"""
 
 
 def guess_the_number():
@@ -66,7 +84,14 @@ def guess_the_number():
 
 # guess_the_number()
 
-""" Pick a random person and ask them a random question """
+""" Pick a random person and ask them a random question 
+- You are given a list of people and questions: 
+    people = ["Ece", "Gül Sena", "Haldun", "Haydar", "Merve", "Nazir", "Sylvain"]
+    questions = ["How old are you?", "Where are you from?", 
+                    "What is you favorite color?", "Do you have any siblings?"]
+- For 5 rounds, pick a random person and a random question, and print it to the console.
+**Hint:** You may use `random.choice` to pick a random element from a list or `random.randint` to pick a random index.
+"""
 people = ["Ece", "Gül Sena", "Haldun", "Haydar", "Merve", "Nazir", "Sylvain"]
 questions = ["How old are you?", "Where are you from?",
              "What is you favorite color?", "Do you have any siblings?"]
@@ -81,7 +106,17 @@ def break_the_ice():
 
 break_the_ice()
 
-""" bingo """
+""" bingo 
+Sahra and Cem wants to play Bingo, but they need you to be their dealer:
+- First create players cards and inform them about their cards. Each card consists of 6 random numbers between $1$ and $10$.
+**Hint:** You may use `radnom.sample(lst, x)` to pick $x$ random elements from $lst$.
+- Repeat the following steps until at least one of the players clears off their card.
+    - Pick a random number between $1$ and $10$.
+    - Check if players have this number in their card, if so remove the number from their card.
+- Announce the winner.
+
+- **Bonus:** You may try to substitute Player 1 and 2 with players' names.
+"""
 
 
 def announce_winner(player1_numbers, player2_numbers):
