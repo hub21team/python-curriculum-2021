@@ -8,8 +8,6 @@
   - for with range function
   - for (list, strings)
 
-## String Manipulation
-
 # Teaching Tips
 
 - **How to get their attention for string manipulation?**
@@ -24,8 +22,6 @@
 # Challenges
 
 ## EASY
-
----
 
 ### Challenge1:
 

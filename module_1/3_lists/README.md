@@ -140,6 +140,15 @@ special_numbers = []
 
 You are given the _numbers_ which contains the numbers from 1 to 1000. Special numbers are the ones having an integer square root. Find all the special numbers in _numbers_ and store them in _special_numbers_ list. When you are finished, print _special_numbers_ to the console.
 
+### Challenge3:
+
+```
+topic_list = ["math", "french", "english", "arts", "sciences"]
+```
+
+You have a friend who wants to do a job depending on the topic he/she likes. For all the topics in the _topic_list_, ask him/her if he/she likes the topic. After learning what he/she likes, for each topic he/she likes, suggest a job.  
+**Hint:** You can use _.index(elt)_ method to find the index of elt in the list.
+
 # Extra Scenarios
 
 **Understanding the for loop syntax:** One of the things that may be hard for a child to grasp is to syntax of the for
