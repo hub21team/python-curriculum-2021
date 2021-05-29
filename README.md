@@ -1,8 +1,8 @@
 # python-curriculum-2021
 
 Lessons:
-1. Introduction
-2. Variables
+1. Variables
+2. Conditionals
 3. Lists
 4. Strings and For Loop
 5. While Loops
