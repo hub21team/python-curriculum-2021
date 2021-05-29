@@ -8,3 +8,4 @@ Lessons:
 5. While Loops
 6. Simple Functions
 7. Simple Imports
+8. Mini Projects
