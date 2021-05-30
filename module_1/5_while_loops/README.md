@@ -64,12 +64,27 @@ ask are we there yet until users gives yes as an answer
 
 Find factorial of given number
 
+### Challenge3:
+
+You are trying to find the sum of all the numbers between 1 and 100.
+Maybe you know the formula that gives you the sum. But, you have
+to write a program that computes the sum using a while loop.
+
+Extra1: Find the sum of even numbers between 1 and 100.
+
+Extra2: Find the sum of square numbers between 1 and 100. So, it should go like
+1 + 4 + 9 + .... + 10000  **Hint!** You should make use of lists and the append method
+
+ **Hint!** You can use two multiplication signs to get the square. i.e:
+
+      5**2 = 25
 
 ## HARD
 
 ### Challenge1:
 
  Write a program that asks for student's grades, store them in a list and compute the average of the grades
+
  **Hint!** You should make use of lists and the append method
 
 ### Challenge2:

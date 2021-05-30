@@ -26,9 +26,9 @@ while x<10:
 
 # Are we there yet challenge
 # ask are we there yet until get yes as an answer
-answer = input("Are we there yet?")
+answer = input("Are we there yet? ")
 while not answer == "yes":
-  answer = input("Are we there yet?")
+  answer = input("Are we there yet? ")
 print("Yay we are there!")
 
 
@@ -59,7 +59,72 @@ for score in score_list:
 average = total/len(score_list)
 print("your average score is " + str(average))
 
+# You are trying to find the sum of all the numbers between 1 and 100.
+# Maybe you know the formula that gives you the sum. But, you have
+# to write a program that computes the sum using a while loop.
+#
+# Extra1: Find the sum of even numbers between 1 and 100.
+#
+# Extra2: Find the sum of square numbers between 1 and 100. So, it should go like
+# 1 + 4 + 9 + .... + 10000
+
+sum = 0
+count = 0
+while True:
+    count += 1
+    sum += count
+    if count == 100:
+        break
+print(sum)
+
+sum = 0
+count = 0
+while True:
+    count += 2
+    sum += count
+    if count == 100:
+        break
+print(sum)
+
+
+
+sum = 0
+count = 0
+while True:
+    count += 1
+    sum += count**count
+    if count == 100:
+        break
+print(sum)
+
 ###------------------------------------------------- HARD -------------------------------------------------###
+
+
+
+
+# optional guess number challenge
+#generate a random number, store it in the variable secret_number
+import random
+secret_number = random.randint(1, 99)
+print("I am thinking of a number between 1 and 99...")
+
+#get our first guess from the user
+guess = int(input("Enter a guess: "))
+
+# True if guess is not equal to secret number
+while guess != secret_number:
+   # True if guess is less than secret number
+   if guess < secret_number:
+      print("Your guess is too low")
+   else:
+      print("Your guess is too high")
+   print("") # an empty line
+
+   # get another guess from the user
+   guess = int(input("Enter a new guess: "))
+
+print("Congrats! The number was: " + str(secret_number))
+
 
 print("Enter a sequence of non-decreasing numbers.")
 current = int(input('Enter a number: '))
