@@ -1,4 +1,3 @@
-
 # Concepts
 * Errors
 * Boolean Variables
@@ -8,9 +7,14 @@
 * If-Elif Statement
 
 
+# Teaching Tips
+* Since errors are the things that programmers encounter the most, it might be a good idea to spend some time introducing different types of errors and how to understand and fix them.
+* When introducing boolean variables, the students will probably wonder about the usage and usefulness of boolean variables, therefore creating a story or a context in which they appear useful or necessary is a good way to start. In the `Number Comparison` section below, there is a suggestion on how to introduce boolean variables. They are introduced as variables that store the results of numerical checks. Any other (more creative) way introduced by the tutor would be helpful.
+* One idea while introducing `if-else` and `if-elif` statement after introducing `if` is to use an example in which `if-else` and `if-elif` improve upon the `if` block.
+
 # Errors
 
-  Python, like other programming languages has a set of rules that we must follow when coding. If we write something in our code that violates any python rule, then when we run the program it will show us an **error**. For example, let's try running the following code:
+  If we write something in our code that violates any python rule, then when we run the program it will show us an **error**. For example, let's try running the following code:
   ```python
   x =
   ```
@@ -58,7 +62,7 @@ NameError: name 'y' is not defined
 
 # Boolean Variables
 
-  Previously, we saw that variables in python can store different types of information, like numbers, characters, and strings. Now we will learn about a new variable type called `boolean`. It is very simple, because a boolean variable can only store one of 2 values: `True` or `False`. Example:
+  A boolean variable can only store one of 2 values: `True` or `False`. Example:
   ```python
   x = True
   print(x)
@@ -71,7 +75,7 @@ NameError: name 'y' is not defined
 
 # Number Comparison
 
-  **Why are boolean variables useful ?** Boolean variables are used to help us make checks. For example, remember how we can use the `input` command to store a value in a variable by writing it from the console ? Let's say we want to create two variables by taking their values from console and we want the person who is writing the number in the console to enter the same number for the first and second variables. We can do it using the following code:
+  Let's say we want to create two variables by taking their values from console and we want the person who is writing the number in the console to enter the same number for the first and second variables. We can do it using the following code:
   ```python
   x = input("Please enter the first number.")
   y = input("Please enter the second number.")
@@ -88,7 +92,6 @@ NameError: name 'y' is not defined
   ```
   ### Idea 2 (using booleans)
 
-  Another idea is to create a boolean variable, which is equal to `True` if the numbers are equal, and equal to `False` when the numbers are not equal. When we print the boolean variable, we will know if they were equal or not by printing only 1 variable instead of 2. **But how do we check if two variables are equal ?**. We can use the comparison operators.
   ```python
   x = int(input("Please enter the first number."))
   y = int(input("Please enter the second number."))
@@ -134,20 +137,22 @@ NameError: name 'y' is not defined
 
 # If Statement
 
-  Now let's talk about what a conditional is. Here is a suggested analogy that might be useful to simplify the idea of conditionals, but the tutor may feel free to use any method as seen fit.
+  Here is a suggested analogy that might be useful to simplify the idea of conditionals, but the tutor may feel free to use any method as seen fit.
 
   Image you are in a car and you arrive at a traffic light. The thing we should do is to look at color of the traffic light, right ? If the light is red, we should stop. If the light is yellow, we should prepare to move. If the light is green, we should move. The color of the light is called a condition, because we want to look at it and then depending on its color we take different actions. So in a conditional, we have 2 components: A condition, and an action. We look at the conditions, and depending on which condition is true or happening, we decide to do different things. This is something the we might need to do in programming.
 
-  We can use the `if` statement to write a condition and an action. For condition we want to see if something is `True` or `False`. This means that the condition must be either a boolean variable, or a comparison operation which gives a boolean result. We write it as follows:
+Format
 
   ```python
   if condition :
     do something
   ```
 
+  ## Indentation
+
   After we write the `if` statement, we need to press `tab` and then write the commands which we want to execute if the condition is true. This `tab` is called `indentation`. It helps us separate between the commands which depend on the conditions and the commands which do not. We will see an example to understand this point.
 
-  Let's take an example. Let's try to improve our previous program. We want to take two number as input. If the first number is greater than the second number we want to print: `First number is greater than second number.`. If second number is greater we want to print: `Second number is greater than first number.`. If they are equal we want to print: `Both numbers are equal.`
+  Let's try to improve the previous program. We want to take two number as input. If the first number is greater than the second number we want to print: `First number is greater than second number.`. If second number is greater we want to print: `Second number is greater than first number.`. If they are equal we want to print: `Both numbers are equal.`
 
   ```python
   x = int(input("Please enter the first number."))
@@ -166,7 +171,7 @@ NameError: name 'y' is not defined
 
 # If-Else Statement
 
-  Let's start with an example. Jean loves the number 8, so he wants us to write a program that takes a number as an input from console. If the number is equal to 8, we must print `Horraaay ! The input is equal to 8`. If the number is not equal to 8, we must print: `Sorry, Number is not equal to 8`. There are several ways to do so. (ask student to think about how we can do it with what we have learned so far, the expected response is to use equals and not equals commands to check equality).
+  **Suggested intro example:** Jean loves the number 8, so he wants us to write a program that takes a number as an input from console. If the number is equal to 8, we must print `Horraaay ! The input is equal to 8`. If the number is not equal to 8, we must print: `Sorry, Number is not equal to 8`. There are several ways to do so. (ask student to think about how we can do it with what we have learned so far, the expected response is to use equals and not equals commands to check equality).
 
   To do this, we can use a new more advanced if command called if-else. It has the following format:
   ```python
@@ -217,4 +222,19 @@ NameError: name 'y' is not defined
   **How is this different from using multiple if statements after one another**. This is a question that the student will probably ask. The answers is that in terms what they do, they can do the exact same thing, but the difference is how the computer understands them and executes them. Let's pretend to be a computer for a moment and see how the computer sees the code and runs it. (A good strategy at this point is to walk the student line by line for both codes with elif and without elif, and focus on the point that for elif, if one of the conditions is True, the computer ignores all other elifs after it)
 
 
-# Boolean Operators
+# Challenge 1: Traffic Lights
+
+Write a program that simulates what we should do at a traffic light. We will write a program that takes the light color as an input `red`, `yellow`, or `green`, and depending on the light color we will print the required actions: `move`, `stop`, `prepare to move`. Use If-Elif Statements.
+
+# Challenge 2: Calculator
+
+Sasha wants to impress her friends by creating a calculator program, but sasha does not know how to write programs in python, so she asks for your help. Sasha wants to make a calculator that does only 4 basic arithmetic operations:
+- Addition (+)
+- Subtraction (-)
+- Multiplication (*)
+- Division (/)
+
+The program should take 3 inputs from the console:
+- The first number
+- The second number
+- a character for the arithmetic operation '+', '-', '*', or '/'

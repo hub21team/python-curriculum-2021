@@ -1,21 +1,43 @@
+
+# Concepts
+* Introduction to IDE
+* Variables
+* Variable Initialization
+* Output
+* Input
+* Variable Types
+* Value Assignment
+* Arithmetic Operations
+* Comments
+* Type Casting
+
+# Teaching Tips
+* **Concept of Variables.** Find an appropriate analogy or example to simplify the idea of a variable. A suggestion is available in `Variables` section below.
+* **Variable Naming Rules.** Show the rules that should be followed when naming a variables, e.g. variable names cannot start with numbers.
+* Make sure students understand the difference between the equals `=` operation in math, and the assignment operator in python.
+* After introducing different variable types, it is important to emphasize that the `input` function reads everything as strings, hence it is important for us to use casting in order to get different types of variables.
+
+
+
+
 # Introduction to IDE
 
-First thing to do is to introduce the environment which the student will use to code in python. Introduction needs to cover how to open the IDE and create a python script and get it ready for coding.
+First thing to do is to introduce the environment which the student will use to code in python.
 
 # Variables
 
-The first concept the student needs to learn is variables. There are several ways to explain what a variable is in simple terms. One way is suggested here but the tutor shall feel free to use any other way as seen fit.
+There are several ways to explain what a variable is in simple terms. One way is suggested here but the tutor shall feel free to use any other way as seen fit.
 
 A **variable** is like a box. A box can fit stuff inside it. Variables in python are boxes that can contain numbers, letters, or words. All variables or boxes have the same shape from outside. Therefore, we need a name to distinguish boxes or variables from each other. Hence, each variable has a name that we can use to see what is stored inside the variable. Each variable (box) in python usually contains a single thing (number, letter, or word), but some variables can contains a collection of things (referring to lists). (The student might be curious about whether a variable (box) can contain more than one thing, in this case it might be helpful to say that there are variables that contain more than one element but we will talk about them later).
 
 # Variable Initialization
 
-Now let's show the student how a variable can be created in python. To create a variable, we need to do 2 things:
+we need to do 2 things:
 
 1. Choose a name for the variable.
 2. Put a value inside the variable. (The simplest would be to put a number.)
 
-Let's create our first variable in which we will put the student's age. At this point we can show that the `=` symbol is used to create a variable. We write the name of the variable on the left of the `=` symbol and the value we want to put inside the variable on its right.
+ We write the name of the variable on the left of the `=` symbol and the value we want to put inside the variable on its right.
 
 ```python
 age = 11
@@ -29,19 +51,16 @@ This way, now we have a box inside the computer named `age` and has `11` inside 
 
 # Output
 
-  Now, what if we want to see what is stored in a variable inside the computer ? We want a way for the computer to show us what is inside the variables. For this we can use the `print` statements. We can use it as follows:
-
+  Now, what if we want to see what is stored in a variable inside the computer ?
   ```python
   age = 11
   print(age)
   ```
-
-  At this point, we can introduce the console and the screen using which the computer can show us things, like variable values or sometimes words. We can use the `print` statement to make the computer show us words and sentences through the console.
+  We can use the `print` statement to make the computer show us words and sentences through the console.
 
   ```python
   print("Hello World! My name is Willy Tybur and I am learning Python")
   ```
-  The student might also want to try printing different sentences and see them on the console.
 
 # Input
 
@@ -55,7 +74,7 @@ This way, now we have a box inside the computer named `age` and has `11` inside 
 
 # Variable Types
 
-  We have seen so far that the variables in python can store numbers. Now we might ask the question: What things other than numbers that can be stored in variables ? We have the following types:
+  What things other than numbers that can be stored in variables ? We have the following types:
 
   ```python
   # Integers
@@ -79,7 +98,7 @@ This way, now we have a box inside the computer named `age` and has `11` inside 
 
 # Value Assignment
 
-  Now let's ask the following question: Is there a way to change the value stored inside a variable after initializing it ? Yes, we can use the same symbol `=` to put a new value inside a variable. See how the variable value changes in the following example:
+  Is there a way to change the value stored inside a variable after initializing it ? We can use the same symbol `=` to put a new value inside a variable.
 
   ```python
   height = 15
@@ -104,11 +123,12 @@ This way, now we have a box inside the computer named `age` and has `11` inside 
 
 # Arithmetic Operations
 
-  In python, we can do mathematical operations on variables. The operations we can do are:
   1. `+`: addition
   2. `-`: subtraction
   3. `*`: multiplication
   4. `/`: division
+  5. `%`: remainder
+  6. `//`: floor division (optional)
 
   Examples:
   ```python
@@ -123,6 +143,9 @@ This way, now we have a box inside the computer named `age` and has `11` inside 
 
   w = 10 / 2
   print(w)
+
+  r = 5 % 3
+  print(r)
   ```
 
   Also, if we have variables which store numbers, we can apply the arithmetic operations directly on the variables instead of writing the numbers directly.
@@ -151,7 +174,7 @@ This way, now we have a box inside the computer named `age` and has `11` inside 
   print(z)
   ```
 
-  When we use arithmetic operations like `+`, `-` with `*`, `/`, we need to pay attention to the order operations. Here is an example that might cause confusion. (You may ask the student what do they think the output should be)
+  Order of operations: (You may ask the student what do they think the output should be)
   ```python
   x = 2 * 3 + 5
   print(x)
@@ -162,8 +185,6 @@ This way, now we have a box inside the computer named `age` and has `11` inside 
   3. Addition and Subtraction
 
   So we can also use brackets in case we want the program to perform some operation before another one:
-
-  (Here we can show a contrast between the outcome of this operations and the previous one where multiplication was prioritized over addition)
   ```python
   x = 2 * (3 + 5)
   print(x)
@@ -171,8 +192,7 @@ This way, now we have a box inside the computer named `age` and has `11` inside 
 
 # Code Comments
 
-In python, while we write code, we can also write notes that the computer cannot see. This is useful when we want to explain what our code does.
-
+Comments are useful when we want to explain what our code does.
 ```python
 # This code creates variables that store the age and name of a person.
 age = 13
@@ -181,10 +201,7 @@ name = "Annie Leonhart"
 
 # Type Casting
 
-  In python, sometimes we can change the type of a variable to another similar variable. For example, we know that `1` is an integer right ? What about `1.0` ? Is it an integer or float ? To us, we know that is is an integer, but for python whenever it sees a decimal point in a number it assumes it's a float number.
-
-  There is a very helpful command in python that let's us know what python thinks the type of the variable is. The command is called `type`. Example:
-
+  A helpful command in python that lets us know what python thinks the type of the variable is:
   ```python
   num_1 = 8
   print(type(num_1))
@@ -208,7 +225,7 @@ name = "Annie Leonhart"
   Let's look at a cooler example now. Look at this string.
   ```python
   num_str = "13"
-  print(type(str))
+  print(type(num_str))
   ```
 
   Its type is string but it looks like a number. This is because we can define words that contain numerical characters. Do you think we can change this string like looks like an integer to an integer variable ? Yes we can! We can also use the `int` command we used previously to change the type from float to integer:
@@ -233,3 +250,22 @@ name = "Annie Leonhart"
   num = int(input("please enter a number"))
   print(type(num))
   ```
+
+  # Challenge 1: Arithmetic Practice
+
+  Write a program that asks the user for two as input, lets call them x and y, and then the program should print 4 numbers:
+
+  1) x + y
+  2) x - y
+  3) x * y
+  4) x / y
+
+
+  # Challenge 2: Temperature Conversion
+
+  Write a program that reads a number which is today's temperature measured in Celcius and then convert it to Fahrenheit. The formula is as follows:
+
+  F = 1.8 * C + 32
+
+  C is the temperature in Celcius
+  F is the temperature in Fahrenheit

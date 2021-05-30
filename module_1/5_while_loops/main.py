@@ -61,31 +61,6 @@ print("your average score is " + str(average))
 
 ###------------------------------------------------- HARD -------------------------------------------------###
 
-
-# optional guess number challenge
-#generate a random number, store it in the variable secret_number
-import random
-secret_number = random.randint(1, 99)
-print("I am thinking of a number between 1 and 99…")
-
-#get our first guess from the user
-guess = int(input("Enter a guess: "))
-
-# True if guess is not equal to secret number
-while guess != secret_number:
-   # True if guess is less than secret number
-   if guess < secret_number:
-      print("Your guess is too low")
-   else:
-      print("Your guess is too high")
-   print("") # an empty line
-
-   # get another guess from the user
-   guess = int(input("Enter a new guess: "))
-
-print("Congrats! The number was: " + str(secret_number))
-
-
 print("Enter a sequence of non-decreasing numbers.")
 current = int(input('Enter a number: '))
 previous = -1
