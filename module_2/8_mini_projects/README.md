@@ -1,11 +1,3 @@
-# Problems
-* Data Structures Problem
-* Advanced Functions Problem
-* File Input Output
-* Error Handling
-
-
-
 # Project 1: Dice Rolling Race
 
   In this project, you will create a game in which you will create play in a race against the computer using Dice! First, the program will ask you to enter the size of the race court. The race court is straight line of cells and in a single step the player can move from one step to another in one direction. The size of the race court is the number of cells in the court such that the first cell is the start position of the players and the last cell is the target cell and whoever reaches (or exceeds) it first wins the race. Therefore, the size of the cell must be at least equal to 3. If the user enters a court size less than three then keep asking again until they enter a valid size value.
