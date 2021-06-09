@@ -73,6 +73,16 @@
   ```
   second_tuple[2] = 24
   ```
+  If you can use tuples instead of lists, you should do it! Because tuples have many advantages:
+  - access to elements are better
+  - consumes less space in memory
+  - iterations may be faster
+    However, if you need to delete or change elements, using lists may be a better idea!
+  ```
+  import timeit
+  print(timeit.timeit('x=(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)', number=500000))
+  print(timeit.timeit('x=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]', number=500000))
+  ```
 
 # Challenges
 
@@ -122,5 +132,40 @@ market_2 = set(["cake", "pasta", "ice cream", "brownie", "bread"])
 ```
 
 You will do the shopping for this week's groceries. You ask your mom to tell you what she needs for this week and take a note of each item. Later, you go the the first market and buy all the things you can find there. If there is some items left in your grocery list, you go to the second market and purchase it from there. Finally, when you go back home, tell your mother is you could not find some items and how many markets you had to visit.
+
+## Tuple Challenges
+
+### Challenge1:
+
+```
+my_fav_sports = ["Swimming", "Tennis", "Volleyball", "Ice skating", "Running"]
+my_friends_fav_sports = ["Ice skating", "Baseball", "Diving", "Fencing", "Sailing"]
+
+common_sports = []
+for sport in my_fav_sports:
+  if sport in my_friends_fav_sports:
+    common_sports.append(sport)
+print("We can do", common_sports)
+```
+
+When you go through your previous codes, you came across this one where you compare your and your friend's favorite sports to find out what you can do together. However, since you learned tuples, you know that for some of the lists in this code, it is better to use tuples. Change your code accordingly.
+
+### Challenge2:
+
+```
+names = ["Tiffanie", "Merve", "Ece", "Nazir", "Berk", "Utku", "Gül Sena", "Meryem"]
+associations = [[1, 1, 0, 0, 0, 0, 0, 0],
+                [1, 1, 1, 1, 1, 1, 1, 1],
+                [0, 1, 1, 1, 1, 1, 1, 0],
+                [0, 1, 1, 1, 0, 1, 1, 0],
+                [0, 1, 1, 0, 1, 1, 0, 1],
+                [0, 1, 1, 1, 1, 1, 0, 1],
+                [0, 1, 1, 1, 0, 0, 1, 0],
+                [0, 1, 0, 0, 1, 1, 0, 1]]
+```
+
+You are given a list of names and associatons. associations list contains the information about people's relations. If one person knows the other, e.g. 2nd person in the list knows the 3rd person, `associations[1][2]` and `associations[2][1]` will be 1, otherwise 0. You are writing a code where a user can ask if one person knows the other. Since users will use names, you have to first find their indices in the list and then using those, you will obtain the results from associations. You realized that you can use dictionaries and tuples to make your code more efficient. Utilize those and names of persons to come up with a solution.  
+**Note:** Since a person obviously knows himself/herself, do not include it in your dictionary. Also, if you have a person X and person Y, if they know each other, you only need to add their relations once.  
+**Hint!** tuples can be used as keys for a dictionary.
 
 # Extra Scenarios

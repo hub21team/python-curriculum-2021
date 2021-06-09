@@ -122,8 +122,7 @@ while True:
     countries_dict[add_country] = add_capital
   elif country == "delete":
     country_to_delete = input("Which country do you want to delete? ")
-    if country_to_delete in countries_dict:
-      del countries_dict[country_to_delete]
+    countries_dict.pop(country_to_delete)
   elif country == "exit" or country == "done":
     break
   elif country in countries_dict:

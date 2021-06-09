@@ -33,10 +33,11 @@ vegie_set = set(["garlic", "onion", "artichokes", "broccoli", "cauliflower", "mu
 # First, ask her what elements she wants to learn untiil she says that she is "bored". 
 # Later, for all the unique elements she said, tell if it's a fruit or vegetable. 
 sister_set = set()
-produce = input("Which vegie of fruit would you like to learn about?")
-while not (produce == "bored"):
-  sister_set.add(produce)
-  produce = input("Which vegie of fruit would you like to learn about?")
+
+product = input("Which vegie of fruit would you like to learn about? ")
+while product != "bored":
+  sister_set.add(product)
+  product = input("Which vegie of fruit would you like to learn about? ")
 
 for element in sister_set:
   if element in fruit_set:
@@ -96,3 +97,72 @@ print("I went to", nb_market, "markets")
 
 
 
+###----------------------------------------------- OPTIONAL (TUPLES) -----------------------------------------------###
+
+
+# Challenge1:
+my_fav_sports = ["Swimming", "Tennis", "Volleyball", "Ice skating", "Running"]
+my_friends_fav_sports = ["Ice skating", "Baseball", "Diving", "Fencing", "Sailing"]
+
+common_sports = []
+for sport in my_fav_sports:
+  if sport in my_friends_fav_sports:
+    common_sports.append(sport)
+print("We can do", common_sports)
+# When you go through your previous codes, you came across this one where you compare your and your friend's
+# favorite sports to find out what you can do together. However, since you learned tuples, you know that for 
+# some of the lists in this code, it is better to use tuples. Change your code accordingly.
+
+my_fav = tuple(my_fav_sports)
+friends_fav = tuple(my_friends_fav_sports)
+
+common_sports = []
+for sport in my_fav_sports:
+  if sport in my_friends_fav_sports:
+    common_sports.append(sport)
+print("We can do", common_sports)
+
+# Challenge2:
+names = ["Tiffanie", "Merve", "Ece", "Nazir", "Berk", "Utku", "Gül Sena", "Meryem"]
+associations = [[1, 1, 0, 0, 0, 0, 0, 0],
+                [1, 1, 1, 1, 1, 1, 1, 1],
+                [0, 1, 1, 1, 1, 1, 1, 0],
+                [0, 1, 1, 1, 0, 1, 1, 0],
+                [0, 1, 1, 0, 1, 1, 0, 1],
+                [0, 1, 1, 1, 1, 1, 0, 1],
+                [0, 1, 1, 1, 0, 0, 1, 0],
+                [0, 1, 0, 0, 1, 1, 0, 1]]
+# You are given a list of names and associatons. associations list contains the information about
+# people's relations. If one person knows the other, e.g. 2nd person in the list knows the 3rd person,
+# associations[1][2] and  associations[2][1] will be 1, otherwise 0. You are writing a code where a user
+# can ask if one person knows the other. Since users will use names, you have to first find their indices 
+# in the list and then using those, you will obtain the results from associations. 
+# You realized that you can use dictionaries and tuples to make your code more efficient. Utilize those 
+# and names of persons to come up with a solution.
+# Note: Since a person obviously knows himself/herself, do not include it in your dictionary. Also, if you 
+# have a person X and person Y, if they know each other, you only need to add their relations once.
+# Hint! tuples can be used as keys for a dictionary.
+assoc_dict = {}
+for i in range(len(names)):
+  for j in range(len(names)):
+    if i != j:
+      if not ((names[i], names[j]) in assoc_dict or (names[j], names[i]) in assoc_dict):
+        assoc_dict[(names[i], names[j])] = associations[i][j]
+
+print("dict: ", assoc_dict)
+
+person1 = input("Which person do you want to know about? ")
+person2 = input("Relation with who? ")
+
+if (person1, person2) in assoc_dict:
+  if assoc_dict[(person1, person2)] == 1:
+    print("They know each other")
+  else:
+    print("They don't know each other")
+elif (person2, person1) in assoc_dict:
+  if assoc_dict[(person2, person1)] == 1:
+    print("They know each other")
+  else:
+    print("They don't know each other")
+else:
+  print("I have no info about", person1, "and", person2)

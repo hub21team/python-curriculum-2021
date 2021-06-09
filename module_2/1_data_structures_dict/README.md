@@ -20,6 +20,7 @@
   ```
   first_dict["new_key"] = 34
   del first_dict[3]
+  elt = first_dict.pop("new_key") # try diff keys and observe the behavior
   first_dict[1] = "HUB21"
   ```
 - Iteration on dictionaries using loops
