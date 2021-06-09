@@ -250,8 +250,12 @@ name = "Annie Leonhart"
   num = int(input("please enter a number"))
   print(type(num))
   ```
+  # Challenges
 
-  # Challenge 1: Arithmetic Practice
+  ## EASY
+
+
+  ### Challenge 1: Arithmetic Practice
 
   Write a program that asks the user for two as input, lets call them x and y, and then the program should print 4 numbers:
 
@@ -261,7 +265,7 @@ name = "Annie Leonhart"
   4) x / y
 
 
-  # Challenge 2: Temperature Conversion
+  ### Challenge 2: Temperature Conversion
 
   Write a program that reads a number which is today's temperature measured in Celcius and then convert it to Fahrenheit. The formula is as follows:
 

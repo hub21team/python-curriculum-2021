@@ -221,12 +221,17 @@ Format
 
   **How is this different from using multiple if statements after one another**. This is a question that the student will probably ask. The answers is that in terms what they do, they can do the exact same thing, but the difference is how the computer understands them and executes them. Let's pretend to be a computer for a moment and see how the computer sees the code and runs it. (A good strategy at this point is to walk the student line by line for both codes with elif and without elif, and focus on the point that for elif, if one of the conditions is True, the computer ignores all other elifs after it)
 
+# Challenges
 
-# Challenge 1: Traffic Lights
+## EASY
+
+### Challenge 1: Traffic Lights
 
 Write a program that simulates what we should do at a traffic light. We will write a program that takes the light color as an input `red`, `yellow`, or `green`, and depending on the light color we will print the required actions: `move`, `stop`, `prepare to move`. Use If-Elif Statements.
 
-# Challenge 2: Calculator
+## MEDIUM
+
+### Challenge 2: Calculator
 
 Sasha wants to impress her friends by creating a calculator program, but sasha does not know how to write programs in python, so she asks for your help. Sasha wants to make a calculator that does only 4 basic arithmetic operations:
 - Addition (+)
