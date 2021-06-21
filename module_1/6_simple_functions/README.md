@@ -25,7 +25,7 @@ img {
 - Functions are like special toasters:
   - You put the bread, adjust the heating level and get a toasted bread.
     - What do you need to know to use a toaster?
-      - What items are allowed in the toaster. For a regulr toaster, bagels, simit, bread, etc. are okay but phone, remote control, fork will break the toaster.
+      - What items are allowed in the toaster. For a regular toaster, bagels, simit, bread, etc. are okay but phone, remote control, fork will break the toaster.
       - You don't need to know the wiring, or heating mechanism inside the toaster as long as dangers and rules are clearly defined in the manual.
   - Once defined you can reuse them for the same funtionality.
 
