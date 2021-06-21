@@ -54,7 +54,7 @@ def teach_toast_making():
     make_toast()
 
 
-# teach_toast_making()
+teach_toast_making()
 ###------------------------------------------------- MEDIUM -------------------------------------------------###
 
 """ 
