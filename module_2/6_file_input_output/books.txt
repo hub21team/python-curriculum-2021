@@ -1,0 +1,126 @@
+Book Name, Author, Published at, Rating
+The Very Hungry Caterpillar, Eric Carle, 1969, 4.8
+Where the Wild Things Are, Maurice Sendak, 1963, 4.2
+Charlotte's Web, E. B. White, 1952, 4.2
+Goodnight Moon, Margaret Wise Brown, 1947, 4.3
+Oh, the Places You'll Go!, Dr. Seuss, 1990, -
+The Cat in the Hat, Dr. Seuss, 1957, 5
+Winnie-the-Pooh, A. A. Milne, 1926, 4.6
+The Lion, the Witch and the Wardrobe, C. S. Lewis, 4.2
+Harry Potter and the Philosopher's Stone, J. K. Rowling, 1997, 4.5
+Brown Bear, Brown Bear, What Do You See?, Bill Martin, Jr., 1967, 4.7
+Alice's Adventures in Wonderland, Lewis Carroll, 1865, 4
+Matilda, Roald Dahl, 1988, 4.3
+Dog Man: Unleashed, Dav Pilkey, 2020, 4.8
+The Hobbit, or There and Back Again, J. R. R. Tolkien, 1937, 4.3
+The Tale of Peter Rabbit, Beatrix Potter, 1901, 4.2
+Charlie and the Chocolate Factory: A Play, Roald Dahl, 1979, 4.7
+A Wrinkle in Time, Novel by Madeleine L'Engle, 1962, 4
+The Giving Tree, Shel Silverstein, 1964, 4.4
+Anne of Green Gables, Lucy Maud Montgomery, 1908, 4.3
+The Snowy Day, Ezra Jack Keats, 1962, 4.2
+The Tiger Who Came to Tea, Judith Kerr, 1968, 4.2
+Harold and the Purple Crayon, Crockett Johnson, 1955, 4.3
+The Secret Garden, Frances Hodgson Burnett, 1911, 4.1
+Winnie-the-Pooh, A. A. Milne, 1926, 4.6
+The Lion, the Witch and the Wardrobe, C. S. Lewis, 4.2
+Harry Potter and the Philosopher's Stone, J. K. Rowling, 1997, 4.5
+Brown Bear, Brown Bear, What Do You See?, Bill Martin, Jr., 1967, 4.7
+Alice's Adventures in Wonderland, Lewis Carroll, 1865, 4
+Matilda, Roald Dahl, 1988, 4.3
+Dog Man: Unleashed, Dav Pilkey, 2020, 4.8
+The Hobbit, or There and Back Again, J. R. R. Tolkien, 1937, 4.3
+The Tale of Peter Rabbit, Beatrix Potter, 1901, 4.2
+Charlie and the Chocolate Factory: A Play, Roald Dahl, 1979, 4.7
+A Wrinkle in Time, Novel by Madeleine L'Engle, 1962, 4
+Charlotte's Web, E. B. White, 1952, 4.2
+Goodnight Moon, Margaret Wise Brown, 1947, 4.3
+Charlotte's Web, E. B. White, 1952, 4.2
+Goodnight Moon, Margaret Wise Brown, 1947, 4.3
+Charlotte's Web, E. B. White, 1952, 4.2
+Goodnight Moon, Margaret Wise Brown, 1947, 4.3
+The Hobbit, or There and Back Again, J. R. R. Tolkien, 1937, 4.3
+The Tale of Peter Rabbit, Beatrix Potter, 1901, 4.2
+Charlie and the Chocolate Factory: A Play, Roald Dahl, 1979, 4.7
+A Wrinkle in Time, Novel by Madeleine L'Engle, 1962, 4
+The Giving Tree, Shel Silverstein, 1964, 4.4
+Anne of Green Gables, Lucy Maud Montgomery, 1908, 4.3
+The Hobbit, or There and Back Again, J. R. R. Tolkien, 1937, 4.3
+The Tale of Peter Rabbit, Beatrix Potter, 1901, 4.2
+Charlie and the Chocolate Factory: A Play, Roald Dahl, 1979, 4.7
+A Wrinkle in Time, Novel by Madeleine L'Engle, 1962, 4
+The Giving Tree, Shel Silverstein, 1964, 4.4
+Anne of Green Gables, Lucy Maud Montgomery, 1908, 4.3
+The Hobbit, or There and Back Again, J. R. R. Tolkien, 1937, 4.3
+The Tale of Peter Rabbit, Beatrix Potter, 1901, 4.2
+Charlie and the Chocolate Factory: A Play, Roald Dahl, 1979, 4.7
+A Wrinkle in Time, Novel by Madeleine L'Engle, 1962, 4
+The Giving Tree, Shel Silverstein, 1964, 4.4
+Anne of Green Gables, Lucy Maud Montgomery, 1908, 4.3
+The Hobbit, or There and Back Again, J. R. R. Tolkien, 1937, 4.3
+The Tale of Peter Rabbit, Beatrix Potter, 1901, 4.2
+Harry Potter and Prisoner of Azkaban, J. K. Rowling, 1999, 4.5
+Harry Potter and Goblet of Fire, J. K. Rowling, 2000, 4.7
+Harry Potter and Half-Blood Prince, J. K. Rowling, 2005, 4.8
+Harry Potter and Deathly Hallows, J. K. Rowling, 2007, 4.9
+Charlie and the Chocolate Factory: A Play, Roald Dahl, 1979, 4.7
+A Wrinkle in Time, Novel by Madeleine L'Engle, 1962, 4
+The Giving Tree, Shel Silverstein, 1964, 4.4
+Anne of Green Gables, Lucy Maud Montgomery, 1908, 4.3
+The Very Hungry Caterpillar, Eric Carle, 1969, 4.8
+Where the Wild Things Are, Maurice Sendak, 1963, 4.2
+Charlotte's Web, E. B. White, 1952, 4.2
+Goodnight Moon, Margaret Wise Brown, 1947, 4.3
+Oh, the Places You'll Go!, Dr. Seuss, 1990, -
+The Cat in the Hat, Dr. Seuss, 1957, 5
+Winnie-the-Pooh, A. A. Milne, 1926, 4.6
+The Lion, the Witch and the Wardrobe, C. S. Lewis, 4.2
+Harry Potter and the Philosopher's Stone, J. K. Rowling, 1997, 4.5
+Brown Bear, Brown Bear, What Do You See?, Bill Martin, Jr., 1967, 4.7
+Alice's Adventures in Wonderland, Lewis Carroll, 1865, 4
+Matilda, Roald Dahl, 1988, 4.3
+Dog Man: Unleashed, Dav Pilkey, 2020, 4.8
+The Very Hungry Caterpillar, Eric Carle, 1969, 4.8
+Where the Wild Things Are, Maurice Sendak, 1963, 4.2
+Charlotte's Web, E. B. White, 1952, 4.2
+Goodnight Moon, Margaret Wise Brown, 1947, 4.3
+Oh, the Places You'll Go!, Dr. Seuss, 1990, -
+The Cat in the Hat, Dr. Seuss, 1957, 5
+Winnie-the-Pooh, A. A. Milne, 1926, 4.6
+The Lion, the Witch and the Wardrobe, C. S. Lewis, 4.2
+Harry Potter and the Philosopher's Stone, J. K. Rowling, 1997, 4.5
+Brown Bear, Brown Bear, What Do You See?, Bill Martin, Jr., 1967, 4.7
+Alice's Adventures in Wonderland, Lewis Carroll, 1865, 4
+Matilda, Roald Dahl, 1988, 4.3
+Harry Potter and Prisoner of Azkaban, J. K. Rowling, 1999, 4.5
+Harry Potter and Goblet of Fire, J. K. Rowling, 2000, 4.7
+Harry Potter and Order of the Phoenix, J. K. Rowling, 2003, 4.8
+Harry Potter and Half-Blood Prince, J. K. Rowling, 2005, 4.8
+Harry Potter and Deathly Hallows, J. K. Rowling, 2007, 4.9
+Dog Man: Unleashed, Dav Pilkey, 2020, 4.8
+The Very Hungry Caterpillar, Eric Carle, 1969, 4.8
+Where the Wild Things Are, Maurice Sendak, 1963, 4.2
+Charlotte's Web, E. B. White, 1952, 4.2
+Goodnight Moon, Margaret Wise Brown, 1947, 4.3
+Oh, the Places You'll Go!, Dr. Seuss, 1990, -
+The Cat in the Hat, Dr. Seuss, 1957, 5
+Winnie-the-Pooh, A. A. Milne, 1926, 4.6
+The Lion, the Witch and the Wardrobe, C. S. Lewis, 4.2
+Harry Potter and the Philosopher's Stone, J. K. Rowling, 1997, 4.5
+Brown Bear, Brown Bear, What Do You See?, Bill Martin, Jr., 1967, 4.7
+Alice's Adventures in Wonderland, Lewis Carroll, 1865, 4
+Matilda, Roald Dahl, 1988, 4.3
+Dog Man: Unleashed, Dav Pilkey, 2020, 4.8
+Brown Bear, Brown Bear, What Do You See?, Bill Martin, Jr., 1967, 4.7
+Alice's Adventures in Wonderland, Lewis Carroll, 1865, 4
+Harry Potter and Philosopher's Stone, J. K. Rowling, 1997, 4.5
+Harry Potter and Chamber of Secrets, J. K. Rowling, 1998, 4.6
+Harry Potter and Prisoner of Azkaban, J. K. Rowling, 1999, 4.5
+Harry Potter and Goblet of Fire, J. K. Rowling, 2000, 4.7
+Harry Potter and Order of the Phoenix, J. K. Rowling, 2003, 4.8
+Harry Potter and Half-Blood Prince, J. K. Rowling, 2005, 4.8
+Harry Potter and Deathly Hallows, J. K. Rowling, 2007, 4.9
+Goodnight Moon, Margaret Wise Brown, 1947, 4.3
+The Hobbit, or There and Back Again, J. R. R. Tolkien, 1937, 4.3
+Matilda, Roald Dahl, 1988, 4.3
+Anne of Green Gables, Lucy Maud Montgomery, 1908, 4.3
