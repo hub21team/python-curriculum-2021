@@ -1,6 +1,6 @@
 # python-curriculum-2021
 
-Lessons:
+## Module 1:
 1. Variables
 2. Conditionals
 3. Lists
@@ -9,3 +9,15 @@ Lessons:
 6. Simple Functions
 7. Simple Imports
 8. Mini Projects
+
+## Module 2:
+1. Data Structures - Dictionaries
+2. Data Structures - Sets / Tuples
+3. Advanced Functions
+4. Practice
+5. Debugging
+6. File I/O - Error Handling
+7. Imports
+8. Mini Projects
+
+## Karel:
