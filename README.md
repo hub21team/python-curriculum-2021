@@ -16,8 +16,14 @@
 3. Advanced Functions
 4. Practice
 5. Debugging
-6. File I/O - Error Handling
-7. Imports
+6. File I/O
+7. Error Handling
 8. Mini Projects
 
 ## Karel:
+1. Introduction
+2. Decomposition and For Loop
+3. Conditionals
+4. While Loop
+5. Mini Check-ins
+6. Mini Projects
