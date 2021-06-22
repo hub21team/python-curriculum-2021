@@ -50,3 +50,24 @@ r = a % b
 
 print("Quotient:", q)
 print("Remainder:", r)
+
+##--------------------------- Hard -------------------------------##
+
+"""
+Area of the Walls
+
+The walls of the city of Shiganshina have a rectangular shape with the size $n \times m$ meters. On the occasion of the city's anniversary, a decision was taken to pave the Walls with square granite flagstones. Each flagstone is of the size a × a.
+
+What is the least number of flagstones needed to pave the Walls? It's allowed to cover the surface larger than walls, but the walls has to be covered. It's not allowed to break the flagstones. The sides of flagstones should be parallel to the sides of the walls.
+
+Write a program that takes `n`, `m`,  and `a` as input. You should print one number which is the smallest number of flagstone required to cover the wall.
+"""
+
+a = int(input("Enter a."))
+n = int(input("Enter n."))
+m = int(input("Enter m."))
+
+num_1 = (n + a - 1) // a
+num_2 = (m + a - 1) // a
+
+print(num_1 * num_2)

@@ -77,21 +77,18 @@ This way, now we have a box inside the computer named `age` and has `11` inside 
   What things other than numbers that can be stored in variables ? We have the following types:
 
   ```python
-  # Integers
+  # Integers (int)
   age = 11
 
-  # float: Decimal Numbers
+  # Decimal Numbers (float)
   height = 168.7
 
-  # Characters
-  grade = 'A'
-
-  # strings: (words and sentences)
+  # strings: (words and sentences) (str)
   # Note that strings can be enclosed by both single and double quotes
   name1 = 'Kenny Ackerman'
   name2 = "Karl Fritz"
 
-  # Booleans (we will learn more about this next week)
+  # Booleans (bool)
   a = True
   b = False
   ```
@@ -129,6 +126,7 @@ This way, now we have a box inside the computer named `age` and has `11` inside 
   4. `/`: division
   5. `%`: remainder
   6. `//`: floor division (optional)
+  7. `**`: Exponentiation operator
 
   Examples:
   ```python
@@ -146,6 +144,9 @@ This way, now we have a box inside the computer named `age` and has `11` inside 
 
   r = 5 % 3
   print(r)
+
+  p = 2 ** 3
+  print(p)
   ```
 
   Also, if we have variables which store numbers, we can apply the arithmetic operations directly on the variables instead of writing the numbers directly.
@@ -181,8 +182,9 @@ This way, now we have a box inside the computer named `age` and has `11` inside 
   ```
   Order of operations in python is like mathematics:
   1. Operations within Brackets
-  2. Multiplication and Division
-  3. Addition and Subtraction
+  2. Exponentiation
+  3. Multiplication and Division
+  4. Addition and Subtraction
 
   So we can also use brackets in case we want the program to perform some operation before another one:
   ```python
@@ -273,3 +275,22 @@ name = "Annie Leonhart"
 
   C is the temperature in Celcius
   F is the temperature in Fahrenheit
+
+## MEDIUM
+
+  ### Challenge 3: Remainder
+
+  We want to perform a division operation between 2 numbers a and b. If b does not divide a, then there will be a remainder of the division. Write a program that takes two numbers: a and b, and print 2 numbers:
+
+  1) The quotient (q), the result of dividing a / b without the remainder
+  2) The remainder (r) of the division.
+
+## HARD
+
+### Challenge 4: Area of the Walls
+
+The walls of the city of Shiganshina have a rectangular shape with the size $n \times m$ meters. On the occasion of the city's anniversary, a decision was taken to pave the Walls with square granite flagstones. Each flagstone is of the size a × a.
+
+What is the least number of flagstones needed to pave the Walls? It's allowed to cover the surface larger than walls, but the walls has to be covered. It's not allowed to break the flagstones. The sides of flagstones should be parallel to the sides of the walls.
+
+Write a program that takes `n`, `m`,  and `a` as input. You should print one number which is the smallest number of flagstone required to cover the wall.

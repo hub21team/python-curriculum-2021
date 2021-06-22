@@ -1,8 +1,23 @@
 # Concepts
 * For Loop
-* What is a condition
-* New Condition Functions
 
+
+# Decomposition
+
+  The idea of decomposition is to divide the program into chunks where each chunk achieves a certain complex task.
+
+## Exercise 1:
+
+  The task is to move from left to right and fill in the holes. First the student should try to implement a naive version. Then discuss with them how we can decompose the required commands into distinct parts of functions and then improve the program my implementing the required functions. Use world `1_decomposition.w`
+
+  ![function introduction](images/1_decomposition.png)
+
+
+## Exercise 2:
+
+The task is to fill the holes in all on all the sides by moving circularly around the grid. World is `2_decomposition.w`
+
+![function introduction](images/5_decomposition_challenge.png)
 
 
 # For Loop
@@ -15,62 +30,22 @@ for i in range(count):
   statements to be repeated
 ```
 
-# Exercise 1
-
-  The task is to pick up all the beepers that are placed in the single cell. World to be used is `1_loop.w`
-
-  ![Introduction World](images/1_loop.png)
-
-
-# Exercise 2
-
-  The task is to pick the beepers from the corners using a for loop. World to be used is `2_loop_corners`
-
-  ![loop_corners](images/2_loop_corners.png)
-
-
 # Exercise 3
+
+  The task is to pick up all the beepers that are placed in the single cell. World to be used is `3_loop.w`
+
+  ![Introduction World](images/3_loop.png)
+
+
+# Exercise 4
+
+  The task is to pick the beepers from the corners using a for loop. World to be used is `4_loop_corners`
+
+  ![loop_corners](images/4_loop_corners.png)
+
+
+# Exercise 5
 
 The task is to put 7 beepers at each corner.
 
-![loop_corners](images/3_nested_loops.png)
-
-# What is a Condition
-
-A condition is a function that helps us check if something is happening or not.
-
-```
-if somthing_happens:
-  do somthing:
-else:
-  do something else
-```
-
-
-# New Condition Functions
-
-|Condition|Opposite| What it checks |
-|---------|--------|--------------- |
-|`front_is_clear()` | `front_is_blocked()` | Is there a wall in front of Karel?|
-|`beepers_present()` | `no_beepers_present()` | Are there beepers in this place?|
-|`left_is_clear()` | `left_is_blocked()` | Is there a wall to Karel’s left?|
-|`right_is_clear()`| `right_is_blocked()`| Is there a wall to Karel’s right?|
-|`beepers_in_bag()`| `no_beepers_in_bag()`| Does Karel have any beepers in its bag?|
-|`facing_north()`| `not_facing_north()`| Is Karel facing north?|
-|`facing_south()`| `not_facing_south()`| Is Karel facing south?|
-|`facing_east()`| `not_facing_east()`| Is Karel facing east?|
-|`facing_west()`| `not_facing_west()`| Is Karel facing west?|
-
-
-# Exercise 4:
-
-The task is to go from left to right and if a cell does not have a beeper, karel should put a beeper, if a beeper already exists, then karel should remove it. World to be used is `4_flip_beepers.w`
-
-![loop_corners](images/4_flip_beepers.png)
-
-
-# Challenge 1: Maze
-
-The task is to reach the center of the maze after picking up all the beepers on the way. World to be used is `5_challenge.w`. There are many ways to solve it, the student may realize that in this maze karel will visit all cells exactly once. Since the maze size is 8x8, then karel will move exactly 63 steps, which is the number of times the loop should iterate. Then, while moving karel can pickup the beepers by checking if they exist. Also, when the front is blocked, all karel needs to do is to turn left.
-
-![maze](images/5_challenge.png)
+![loop_corners](images/5_nested_loops.png)

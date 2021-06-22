@@ -73,24 +73,6 @@ This is the same as exercise 2, but the `turn_right()` function must be implemen
 
   ![function introduction](images/3_function_practice.png)
 
-
-# Decomposition
-
-  The idea of decomposition is to divide the program into chunks where each chunk achieves a certain complex task.
-
-## Exercise 5:
-
-  The task is to move from left to right and fill in the holes. First the student should try to implement a naive version. Then discuss with them how we can decompose the required commands into distinct parts of functions and then improve the program my implementing the required functions. Use world `4_decomposition.w`
-
-  ![function introduction](images/4_decomposition.png)
-
-
-## Exercise 5: Challenge
-
-The task is to fill the holes in all on all the sides by moving circularly around the grid. World is `5_decomposition_challenge.w`
-
-![function introduction](images/5_decomposition_challenge.png)
-
 # Accessing World Editor
 
 Can be accessed to create worlds by running the following:
