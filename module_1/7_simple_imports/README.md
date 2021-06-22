@@ -17,10 +17,10 @@ img {
 
 <!-- ![Rocket](https://cdn.pixabay.com/photo/2013/07/12/18/56/space-travel-154020_960_720.png) -->
 <img src="https://cdn.pixabay.com/photo/2013/07/12/18/56/space-travel-154020_960_720.png" alt="Rocket" align="left" width="30%" >
-- You may start the session by asking student to remind you of why we use functions from last week.&nbsp;   
-- *Deliberation:* How can we achieve much more complex functionalities?&nbsp;    
-    - How can we go to the moon?&nbsp;  
-    - How can we build beautiful websites?&nbsp;   
+- You may start the session by asking student to remind you of why we use functions from last week.&nbsp;     
+- *Deliberation:* How can we achieve much more complex functionalities?&nbsp;      
+    - How can we go to the moon?&nbsp;    
+    - How can we build beautiful websites?&nbsp;     
 - No need to re-invent the wheel. Build on the existing cumulative knowledge and functions to create high-value products. $\Rightarrow$  *Libraries*
 - There are over 137 000 python libraries.   
 
