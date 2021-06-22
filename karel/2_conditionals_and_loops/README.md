@@ -17,7 +17,7 @@
 
 The task is to fill the holes in all on all the sides by moving circularly around the grid. World is `2_decomposition.w`
 
-![function introduction](images/5_decomposition_challenge.png)
+![function introduction](images/2_decomposition.png)
 
 
 # For Loop
