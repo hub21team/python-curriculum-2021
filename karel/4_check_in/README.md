@@ -3,7 +3,7 @@
 - Check-in exercises
 
 # Teaching Tips
-- Comemnts are an essential part of programming. Students should feel comfortable and they should be used to using comments to explain their code.
+- Comments are an essential part of programming. Students should feel comfortable and they should be used to using comments to explain their code.
 
 ## Collect Rewards
 Karel starts at the left end of the first row. Along her way, there are prizes, at each corner there may be multiple, disguised as beepers. Your job is to move Karel untill the end of the row and pick the prizes along her way.
