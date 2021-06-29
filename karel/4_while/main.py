@@ -28,8 +28,10 @@ def twist_karel():
 
 def dance_karel():
     while front_is_clear():
-        twist_karel()
         move()
+        twist_karel()
+
+# dance_karel()
 
 ###------------------------------------------------- HARD -------------------------------------------------###
 """

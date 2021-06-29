@@ -1,6 +1,5 @@
 # Concepts
 - While loops
-- 
 
 # Teaching Tips
 - Since students know about for loops it is a good idea to build upon for loops and deliberate with the student how to generalize loops using conditionals.
@@ -10,11 +9,19 @@
 ### Take Karel to the End
 Write a program that makes Karel move until the end of the street.
 
+At the beginning Karel's world looks like following:
+![Take Karel To End Pre](images/TakeKarelToEnd_pre.jpg)
+
+After the program, Karel's world looks like following:
+![Take Karel To End Pre](images/TakeKarelToEnd_post.jpg)
+
 
 ## Medium
 ### Dence Karel
 Karel loves to the dance. Today's mood? Let's do the twist. Write a program that makes Karel walk across the dance floor (hmm, aka streets) but she must do a full turn at each step.  So Karel does a spin in each round,which is turn left once and keep going until her feet are on the ground again.
 
+Karel's world looks like the following:
+![Dance Karel World animation](images/DanceKarel.gif)
 
 ## Hard
 ### Put Beeper and Climb
@@ -26,3 +33,9 @@ Note that:
 - It does not matter which direction Karel ends up facing.
 - The world is always square (the world's height is the same as its width)
 *Note to tutor: you may ask the student to extend their code to work on an even numbered square world.
+
+At the beginning Karel's world looks like following:
+![Put Beeper and Climb Pre](images/PutBeeperClimb_pre.jpg)
+
+After the program, Karel's world looks like following:
+![Put Beeper and Climb Pre](images/PutBeeperClimb_post.jpg)
