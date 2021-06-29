@@ -16,12 +16,13 @@ img {
 **Note** to the tutor: Please refer to [this article](https://www.geeksforgeeks.org/what-is-the-difference-between-pythons-module-package-and-library/) for the difference between module, package, and library.
 
 <!-- ![Rocket](https://cdn.pixabay.com/photo/2013/07/12/18/56/space-travel-154020_960_720.png) -->
-<img src="https://cdn.pixabay.com/photo/2013/07/12/18/56/space-travel-154020_960_720.png" alt="Rocket" align="left" width="30%" >
+<!-- <img src="https://cdn.pixabay.com/photo/2013/07/12/18/56/space-travel-154020_960_720.png" alt="Rocket" align="right" width="30%" >
+-->
 - You may start the session by asking student to remind you of why we use functions from last week.&nbsp;     
 - **Deliberation:** How can we achieve much more complex functionalities?&nbsp;      
     - How can we go to the moon?&nbsp;    
     - How can we build beautiful websites?&nbsp;     
-- No need to re-invent the wheel. Build on the existing cumulative knowledge and functions to create high-value products. $\Rightarrow$  *Libraries*
+- No need to re-invent the wheel. Build on the existing cumulative knowledge and functions to create high-value products. =>  *Libraries*
 - There are over 137 000 python libraries.   
 
 ### Import Statements
@@ -49,9 +50,9 @@ img {
 ### Using Libraries effectively
 - When using a function from library, it is important to understand the inputs, outputs and behavior of the function. 
 - Always refer to the documentation if you are not sure how a specific function works.
-<!-- ![Hover to see function explanation](images/hover.jpg) -->
-<img src="images/hover.jpg" alt="Hover to see function explanation" align="right" width="50%" style="padding-left: 10px;" >
-- *Pro tip:*Hover over function name and some tips will appear.
+- *Pro tip:* Hover over function name and some tips will appear.
+![Hover to see function explanation](images/hover.jpg)
+<!-- <img src="images/hover.jpg" alt="Hover to see function explanation" align="right" width="50%" style="padding-left: 10px;" > -->
 
 # Teaching Tips
 - As a general notion, put emphasis on documentation and encourage you students to include comments in their codes.
@@ -64,26 +65,27 @@ img {
 ## Challenges
 ### Easy
 #### Calculate the Square Root
-Ease up the student by calculating squareroots of several numbers.
+Ease up the student by calculating square roots of several numbers.
 
 
 <!-- ![Wheel](https://cdn.pixabay.com/photo/2013/07/13/13/45/high-wheel-bicycle-161471_1280.png) -->
 <img src="https://cdn.pixabay.com/photo/2013/07/13/13/45/high-wheel-bicycle-161471_1280.png" alt="Wheel" align="left" width="30%" style="padding-right: 10px;" >
 
 #### Calculate the perimeter of a circle
-Jack will put tape around a hoop to play with his cat. Help Jack find how much tape he needs. We know from math that the perimeter of a circle is given by the following formula: $2\pi r$ where $r$ represents the radius of the circle and $\pi$ is a constant ($3.14159...$). Take $r$ as input from the user andcalculate the result using `math.pi`.
+Jack will put tape around a hoop to play with his cat. Help Jack find how much tape he needs. We know from math that the perimeter of a circle is given by the following formula: 2\pi r where r represents the radius of the circle and \pi is a constant (3.14159...). Take r as input from the user andcalculate the result using `math.pi`.
 
 ### Medium
 
 #### Combination & Permutation Formulas
-Calculate $C(n, k)=\frac{n!}{k!(n-k)!}$ and $P(n, k)=\frac{n!}{(n-k)!}$ using `math.factorial`.  
-**Note 1:** A younger student may not know the notion of permutation and combination. Tutor may introduce the formulas as special formulas without explaining the logic. If the tutor feels like the explanation would confuse the student too much, theymay skip this exercise.
+Calculate _C(n, k)=n!/(k!(n-k)!)_ and _P(n, k)=n!/((n-k)!)_ using `math.factorial`.  
+**Note 1:** A younger student may not know the notion of permutation and combination. Tutor may introduce the formulas as special formulas without explaining the logic. If the tutor feels like the explanation would confuse the student too much, 
+they may skip this exercise.  
 **Note 2:** The tutor may direct student to think about how to calculate these formulas without using `math` library as an exercise on for and functions.
 
 ### Hard
 #### Guess the number game
 Let's play a game.
-- Generate a random number between $1, 20$ using `random` library. You may use [`random.randint(a, b)`](https://docs.python.org/3/library/random.html#random.randint)
+- Generate a random number between 1, 20 using `random` library. You may use [`random.randint(a, b)`](https://docs.python.org/3/library/random.html#random.randint)
 - Ask the user their guess.
 - If user's guess is wrong give feedback to the user.
 - Repeat until user enters the correct number.
@@ -112,18 +114,21 @@ Congratulations, my number was indeed 9
                     "What is you favorite color?", "Do you have any siblings?"]
     ```
 - For 5 rounds, pick a random person and a random question, and print it to the console.
+
 **Hint:** You may use `random.choice` to pick a random element from a list or `random.randint` to pick a random index.
 
 #### Bingo
 Sahra and Cem wants to play Bingo, but they need you to be their dealer:
-- First create players cards and inform them about their cards. Each card consists of 6 random numbers between $1$ and $10$.
-**Hint:** You may use `radnom.sample(lst, x)` to pick $x$ random elements from $lst$.
+- First create players cards and inform them about their cards. Each card consists of 6 random numbers between 1 and 10.
+
+**Hint:** You may use `random.sample(lst, x)` to pick x random elements from lst.
 - Repeat the following steps until at least one of the players clears off their card.
-    - Pick a random number between $1$ and $10$.
+    - Pick a random number between 1 and 10.
     - Check if players have this number in their card, if so remove the number from their card.
 - Announce the winner.
 
 - **Bonus:** You may try to substitute Player 1 and 2 with players' names.
+
 - Sample execution:
 
     ```bash

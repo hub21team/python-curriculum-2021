@@ -1,4 +1,4 @@
-# Simple Functions
+# Advanced Functions
 
 ## Concepts
 

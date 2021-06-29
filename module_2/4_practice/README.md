@@ -1,4 +1,6 @@
-This week is intended for practice questions, if the tutor couldn't finish all the material from last week or feels the need to go back to some of the topics from last week, they are free to do so. 
+# Practice Week
+
+This week is intended for practice questions, if the tutor couldn't finish all the material from last week or feels the need to go back to some of the topics from [last week](../3_advanced_functions/README.md), they are free to do so. 
 
 ## Easy
 ### Find the statistics of the exam
@@ -34,7 +36,7 @@ Write a function that takes the user's birthdate (day-month) as input and calcul
 
 ## Hard
 ### Don't be sad dear February 29
-Now, re-do the exercise *Find your birthday in the year* so that if it is a leap year, ie. multiple of 4
+Now, re-do the exercise [*Find your birthday in the year*](#find-your-birthday-in-the-year) so that if it is a leap year, ie. multiple of 4
 
 ### Treasure Hunt
 If we were to meet in person than we could have played an epic Treasure Hunt, luckily we can program the hunt by ourselves.

@@ -42,7 +42,7 @@ Write a function `read_contents` that takes a filename and prints the content of
 **Note:** Be careful! User may input a filename that does not exist, therefore, you should handle this error case.
 
 ### Challenge 2:
-You are given a mined code in the file `mine.py`, meaning that it is full of errors. Your job is not to correct them but use correct try/except statements with respect to specific Error types so that your code runs until the end. We picked these errors from Python built-in exceptions list, which can be found [here](https://docs.python.org/3/library/exceptions.html). First one is given as an example.
+You are given a mined code in the file [`mine.py`](mine.py), meaning that it is full of errors. Your job is not to correct them but use correct try/except statements with respect to specific Error types so that your code runs until the end. We picked these errors from Python built-in exceptions list, which can be found [here](https://docs.python.org/3/library/exceptions.html). First one is given as an example.
 
 ## MEDIUM
 

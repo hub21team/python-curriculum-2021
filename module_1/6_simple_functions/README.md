@@ -19,7 +19,11 @@ img {
 
 ### Functions
 
-- _Deliberation:_ Why do we need function? - As we grow and learn more things as a programmer, our programs may get complicated and sophisticated. How can we manage this? An example question can be, how would you code my workout routine: Lunges, Pushups, Squats, Lunges, Plank - 
+- _Deliberation:_ Why do we need functions? 
+    - As we grow and learn more things as a programmer, our programs may get 
+    complicated and sophisticated. How can we manage this? 
+    An example question can be, how would you code my workout routine: 
+    Lunges, Pushups, Squats, Lunges, Plank, ...
   <!-- ![Toaster](images/toaster.png) -->
   <img src="images/toaster.png" alt="Toaster" width="45%" align="right" style="padding-left: 10px;">
 - Functions are like special toasters:
@@ -39,7 +43,18 @@ img {
 #### How to define functions
 
 - Similar to variables, in order to use a function we must define them first.
-- Functions are _defined_ with `def` keyword in Python. There are 5 components and 1 important rule to function definition. - `def` keyword tells Python that you are defining a function. - Then we need to specify the name of the function. - You can choose any name you want but names that reflect the functionality are better. - Multiple words are separated by underscore (\_). - Parantheses _()_ allow us to pass any necessary information to the function. - Semicolon _:_ indicates that we are ready to define instructions. - Body: the instructions to be performed by this function are defined in the body. - **Indentation:** Just like in control blocks and loops indentation is key to indicating the scope of the function.
+- Functions are _defined_ with `def` keyword in Python. 
+There are 5 components and 1 important rule to function definition. 
+    - `def` keyword tells Python that you are defining a function. 
+    - Then we need to specify the name of the function. 
+    - You can choose any name you want but names that reflect the functionality
+     are better. 
+     - Multiple words are separated by underscore (\_). 
+     - Parantheses _()_ allow us to pass any necessary information to the function. 
+     - Semicolon _:_ indicates that we are ready to define instructions. 
+     - Body: the instructions to be performed by this function are defined in 
+     the body. 
+     - **Indentation:** Just like in control blocks and loops indentation is key to indicating the scope of the function.
   ```python 
   def my_function(): 
       # pass is a placeholder for your future code, it does nothing # functions must have at least 1 line of code 
