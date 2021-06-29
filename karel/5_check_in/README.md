@@ -8,6 +8,12 @@
 ## Collect Rewards
 Karel starts at the left end of the first row. Along her way, there are prizes, at each corner there may be multiple, disguised as beepers. Your job is to move Karel untill the end of the row and pick the prizes along her way.
 
+At the beginning of the program, CollectRewards.w looks like following:
+![Collect Rewards Pre](images/CollectRewards_pre.jpg)
+
+After running the program, Karel's world looks like following:
+![Collect Rewards Post](images/CollectRewards_post.jpg)
+
 ## Hospital Karel
 Karel begins at the left end of the first row. Her job is to build hospitals along her way to the end of the row. 
 - Hospitals' starting locations are marked with a beeper. 
@@ -15,9 +21,18 @@ Karel begins at the left end of the first row. Her job is to build hospitals alo
 - Karel should complete the program at the end of the row facing East.
 - Karel has infinite number of beepers in her bag.
 
+At the beginning of the program, HospitalKarel.w looks like following:
+![Hospital Karel Pre](images/HospitalKarel_pre.jpg)
+
+After running the program, Karel's world looks like following:
+![Hospital Karel Post](images/HospitalKarel_post.jpg)
+
 ## Build Ephesus
-Let's repair thhe famous library in Ephesus, which looks like:
-![Columns](ephesus.jpg)
+Let's repair thhe famous library in Ephesus, which looks like:  
+At the beginning of the program, Ephesus looks like following:
+![Ephesus Pre](images/Ephesus1_pre.jpg)
+After running the program, Karel's world looks like following:
+![Ephesus Post](images/Ephesus1_post.jpg)
 
 Your program should work on the world shown above, but it should be general enough to handle any world that meets the basic conditions outlined at the end of this problem.
 
@@ -31,3 +46,8 @@ Karel’s final location and the final direction Karel is facing at the end of t
 - In an initial world, some columns may already contain beepers representing stones that are still in place. Your program should not put a second beeper on corners that already have beepers. Avenues that will not have columns will never contain existing beepers.
 
 Build Ephesus is adapted from Code in Place, and CS Bridge.
+
+At the beginning of the program, Karel's second world looks like following:
+![Ephesus2 Pre](images/Ephesus2_pre.jpg)
+After running the program, Karel's world looks like following:
+![Ephesus2 Post](images/Ephesus2_post.jpg)

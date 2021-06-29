@@ -46,5 +46,6 @@ def main():
         move_to_next_column()
     turn_left()
     build_column()
+    move_down()
 
 # main()
