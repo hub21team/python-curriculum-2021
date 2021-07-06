@@ -11,6 +11,12 @@
 
 Karel is a cool robot. It can move around the world. Karel has a bag in which it collects beepers. It can also take beepers from its bag and put them on the floor. Karel has a space it can move in which is surrounded by walls.
 
+# Requirements
+When you create a repl, make sure to Add "stanfordkarel" package from the cube on the left and add the following line to the beginning of your Karel programs, this way we can use the already defined Karel functions.
+```python
+from stanfordkarel import *
+```
+
 # Main functions
 
 `def main()` block is like the green flag block in scratch. It contains the commands to be executed.
@@ -18,6 +24,13 @@ Karel is a cool robot. It can move around the world. Karel has a bag in which it
 ```python
 def main():
   move()
+```
+
+The following is the entry point to our program, if we specifiy thepath to the world file inside  `run_karel_program`, Python will load that world and run or program in it.
+
+```python
+if __name__ == "__main__":
+  run_karel_program(PATH_TO_WORLD)
 ```
 
 # Comments
