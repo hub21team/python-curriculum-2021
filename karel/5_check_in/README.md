@@ -31,6 +31,7 @@ After running the program, Karel's world looks like following:
 Let's repair thhe famous library in Ephesus, which looks like:  
 At the beginning of the program, Ephesus looks like following:   
 ![Ephesus Pre](images/Ephesus1_pre.jpg)
+   
 After running the program, Karel's world looks like following:   
 ![Ephesus Post](images/Ephesus1_post.jpg)
 
@@ -49,5 +50,6 @@ Build Ephesus is adapted from Code in Place, and CS Bridge.
 
 At the beginning of the program, Karel's second world looks like following:   
 ![Ephesus2 Pre](images/Ephesus2_pre.jpg)
+   
 After running the program, Karel's world looks like following:   
 ![Ephesus2 Post](images/Ephesus2_post.jpg)
