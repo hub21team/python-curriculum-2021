@@ -1,4 +1,4 @@
-from karel.stanfordkarel import *
+from stanfordkarel import *
 ###------------------------------------------------- EASY -------------------------------------------------###
 """ 
 Take Karel to the End
@@ -11,6 +11,13 @@ def move_to_the_end():
         move()
 
 
+def main():
+    move_to_the_end()
+
+
+if __name__ == "__main__":
+    run_karel_program("TakeKarelToEnd")
+    
 ###------------------------------------------------- MEDIUM -------------------------------------------------###
 
 """
@@ -31,8 +38,13 @@ def dance_karel():
         move()
         twist_karel()
 
-# dance_karel()
 
+def main():
+    dance_karel()
+
+
+if __name__ == "__main__":
+    run_karel_program("DanceKarel")
 ###------------------------------------------------- HARD -------------------------------------------------###
 """
 ### Put Beeper and Climb
@@ -45,6 +57,7 @@ Note that:
 - The world is always square (the world's height is the same as its width)
 *Note to tutor: you may ask the student to extend their code to work on an even numbered square world.
 """
+
 
 def turn_right():
     for i in range(3):
@@ -67,4 +80,10 @@ def put_beeper_and_climb():
     if no_beepers_present():
         put_beeper()
 
-# put_beeper_and_climb()
+
+def main():
+    put_beeper_and_climb()
+
+
+if __name__ == "__main__":
+    run_karel_program("BeeperClimb")

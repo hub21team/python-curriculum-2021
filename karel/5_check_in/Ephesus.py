@@ -1,4 +1,4 @@
-from karel.stanfordkarel import *
+from stanfordkarel import *
 
 """
 
@@ -48,4 +48,6 @@ def main():
     build_column()
     move_down()
 
-# main()
+
+if __name__ == "__main__":
+    run_karel_program("Ephesus")

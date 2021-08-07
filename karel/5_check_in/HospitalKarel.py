@@ -1,5 +1,5 @@
 
-from karel.stanfordkarel import *
+from stanfordkarel import *
 
 
 """
@@ -42,10 +42,15 @@ def build_hospital():
     turn_left()
 
 
-# walk across the world, checking for beepers
-while front_is_clear():
-    if beepers_present():
-        pick_beeper()
-        build_hospital()
-    if front_is_clear():
-        move()
+def main():
+    # walk across the world, checking for beepers
+    while front_is_clear():
+        if beepers_present():
+            pick_beeper()
+            build_hospital()
+        if front_is_clear():
+            move()
+
+
+if __name__ == "__main__":
+    run_karel_program("HospitalKarel")
