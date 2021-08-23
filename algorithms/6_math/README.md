@@ -18,3 +18,7 @@ If the student is interested, you may talk about another implementation using bi
 
 # Medium
 ## Sieve of Eratosthene’s
+
+# Hard
+## Sherlock & Coprimes
+See the oriignal [here](https://www.hackerearth.com/practice/algorithms/dynamic-programming/bit-masking/practice-problems/algorithm/sherlock-and-coprime-subset/editorial/).
