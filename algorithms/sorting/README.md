@@ -14,9 +14,9 @@
 ## Save Patients
 See original [here]( https://www.hackerearth.com/practice/algorithms/sorting/bubble-sort/practice-problems/algorithm/save-patients/)
 
-## Best Player
-See original [here](https://www.hackerearth.com/practice/algorithms/sorting/bubble-sort/practice-problems/algorithm/the-best-player-1/)
+## Closest Numbers
+See original [here](https://www.hackerrank.com/challenges/closest-numbers/problem)
 
 # Medium
-## Lily’s Homework
-See original [here]( https://www.hackerrank.com/challenges/lilys-homework/problem)
+## Fraudulent Activity Notifications
+See original [here]( https://www.hackerrank.com/challenges/fraudulent-activity-notifications/problem)
