@@ -13,7 +13,10 @@
 ## Minimum Lost
 See original [here](https://www.hackerrank.com/challenges/minimum-loss/problem)
 
-# MEdium
+# Medium
 ## Icecream Parlor
 See original [here](https://www.hackerrank.com/challenges/icecream-parlor/problem)
 
+# Hard
+## Bugs
+See original [here](https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/algorithm/victory-over-power-4a0cb459/).
