@@ -47,4 +47,9 @@ A data structure is a strategy to store data. An array or list is an example of 
   print(queue.popleft())
   ```
 
-  
+# Problems
+
+## Stacks
+* https://www.hackerearth.com/practice/data-structures/stacks/basics-of-stacks/practice-problems/
+## Queues
+* https://www.hackerearth.com/practice/data-structures/queues/basics-of-queues/practice-problems/
