@@ -1,4 +1,4 @@
-# python-curriculum-2021
+# python-curriculum-2022
 
 ## Module 1:
 1. Variables
