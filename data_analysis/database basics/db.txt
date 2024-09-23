@@ -1,0 +1,28 @@
+another way of constructing and manipulating datasets: databases
+what are databases
+
+-select from where
+-insert/delete/upadte
+
+-create table
+-drop table
+
+-advanced select
+-more on the create table
+
+-keys
+
+tasks - maybe update a bit and thats enough
+https://replit.com/@Tiffaine2005/Intro-Data-Base#advanced%20select.sql
+
+https://www.hackerrank.com/domains/sql
+https://github.com/devhns/HackerRankSQLPractices
+
+
+Mini projects:
+1. https://github.com/HARIS29121/MS-SQL-SERVER_-Practice-with-Kaggle-datasets/blob/main/SQL%20Practice%20on%20Olympics%20data%20set.sql
+https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results
+
+2. https://github.com/SivaArwin/MS-SQL-SERVER---Practices
+
+3. 

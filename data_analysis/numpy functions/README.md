@@ -1,0 +1,132 @@
+# Ideas
+* Learning about NumPy Functions
+	* Adding, removing, and sorting elements
+	* Splitting an Array Into Multiple Sub-Arrays
+	* Joining Two or More Arrays
+	* Transposing an Array
+
+## Adding, removing, and sorting elements
+	1. Sorting
+		If you start with this array:
+		*arr = np.array([2, 1, 5, 3, 7, 4, 6, 8])*
+		
+		You can quickly sort the numbers in ascending order with:
+
+		*np.sort(arr)*
+		*>>> array([1, 2, 3, 4, 5, 6, 7, 8])*
+	
+	2. Adding elements
+		Adding Elements to an Existing Array
+		*np.append(array, value)*
+		
+		a = np.array([[1,2,3],[4,5,6]]) 
+		First array:
+		'''pyhton[[1 2 3]
+		[4 5 6]]'''
+
+		Append elements to array:
+		np.append(a, [7,8,9]) 
+		output
+		"""[1 2 3 4 5 6 7 8 9]
+		"""
+	
+	3. Deleting elements
+	np.delete(array, object, axis)
+	arr = np.array([[0,1,2,3],[4,5,6,7], [8,9,10,11]])
+
+	deletion from 2D array
+	a = np.delete(arr, 1, axis=1)
+	'''
+			[[ 0  1*  2  3]
+			 [ 4  5*  6  7]
+			 [ 8  9* 10 11]]
+	'''
+
+	b = np.delete(arr, 1, axis=0)
+	'''
+					[[ 0  1  2  3]
+			 [ 4  5  6  7] -> deleted
+			 [ 8  9 10 11]]
+	'''
+## Splitting an Array Into Multiple Sub-Arrays
+
+	np.split(array_name, piece no.)
+	each_movie = np.split(movie_ratings, 3)
+
+## Joining Two or More Arrays
+	
+	np.concatenate((a1, a2, …), axis=0 (optional))
+	axis: The axis along which the arrays will be joined. If axis is None, arrays are flattened before use. Default is 0.
+	m = np.array([[63.0, 54.0, 70.0, 50.0], [94.0, 85.0, 89.0, 95.0]])
+	m2 = np.array([[63.0, 54.0, 70.0, 50.0], [64.0, 90.0, 73.0, 85.0]])
+
+	print(np.concatenate((m, m2), axis=1))
+	print(np.concatenate((m, m2), axis=0))
+
+## Transposing an Array
+	
+	switching the rows as columns and the columns as rows
+	print(movie_ratings)
+	print(movie_ratings.T)
+	
+	
+# Challenges
+
+	##Challenge 1
+
+	arr = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+	Extract all odd numbers from arr
+
+	##Challenge 2
+	
+	get the common items between two python numpy arrays
+	a = np.array([1,2,3,2,3,4,3,4,5,6])
+	b = np.array([7,2,10,2,7,4,9,4,9,8])
+	print(np.intersect1d(a,b))
+	
+	https://www.geeksforgeeks.org/python-numpy-practice-exercises-questions-and-solutions/
+	
+	https://www.w3resource.com/python-exercises/numpy/index-array.php
+	##Challenge 3
+	
+	Write a NumPy program to reverse an array (first element becomes last). Go to the editor
+	Original array:
+	[12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37]
+	Reverse array:
+	[37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12]
+
+
+	Write a NumPy program to create a 8x8 matrix and fill it with a checkerboard pattern. Go to the editor
+Checkerboard pattern:
+[[0 1 0 1 0 1 0 1]
+..........
+[0 1 0 1 0 1 0 1]
+[1 0 1 0 1 0 1 0]]
+
+
+Write a NumPy program to find the set difference of two arrays. The set difference will return the sorted, unique values in array1 that are not in array2. Go to the editor
+Expected Output:
+Array1: [ 0 10 20 40 60 80]
+Array2: [10, 30, 40, 50, 70, 90]
+Set difference between two arrays:
+[ 0 20 60 80]
+
+Write a NumPy program compare two given arrays. Go to the editor
+Array a: [1 2]
+Array b: [4 5]
+a > b
+[False False]
+a >= b
+[False False]
+a < b
+[ True True]
+a <= b
+[ True True]
+
+Write a NumPy program to create a 2-D array whose diagonal equals [4, 5, 6, 8] and 0's elsewhere. Go to the editor
+Expected Output:
+[[4 0 0 0]
+[0 5 0 0]
+[0 0 6 0]
+[0 0 0 8]]
+
